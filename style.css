@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #efe9f4;
+    color: #484d6d;
+    overflow: auto;
+    margin-bottom: 50px;
+    min-width: 900px;
+}
+
+header {
+    font-weight: 700;
+    font-family: 'Lobster', cursive;
+    background-color: #a76571;
+    color: #efe9f4;
+    font-size: 2.5em;
+    padding: 20px 30px;
+}
+
+.info {
+    position: relative;
+    display: inline-block;
+    width: 57%;
+    height: 60%;
+    vertical-align: top;
+    font-family: 'Cabin', sans-serif;
+    padding: 40px 30px;
+    font-size: 1.2em;
+}
+
+.info p {
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+.info h2 {
+    padding-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.info .skill {
+    font-weight: bold;
+}
+
+.info q {
+    font-style: italic;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.profilePic {
+    display: inline-block;
+    width: 40%;
+    padding-top: 40px;
+}
+
+.profilePic img {
+    width: 70%;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #484d6d;
+    font-family: 'Cabin', sans-serif;
+    padding-left: 30px;
+    min-width: 900px;
+}
+
+footer i {
+    font-size: 3em;
+    margin-right: 5px;
+}
+
+.contact {
+    display: inline-block;
+    color: #efe9f4;
+    height: 100%;
+    vertical-align: middle;
+    padding: 20px 30px 20px 0;
+}
+
+.contact, a:link, a:visited {
+    color: #efe9f4;
+    text-decoration: none;
+}
+
+.contact:hover, a:link:hover, a:visited:hover {
+    color: #fff;
+}
