@@ -43,7 +43,7 @@ header {
     font-size: 1.5em;
 }
 
-.info .skill {
+.info .bold {
     font-weight: bold;
 }
 
@@ -53,13 +53,13 @@ header {
     margin-top: 15px;
 }
 
-.profilePic {
+.profile-pic {
     display: inline-block;
     width: 40%;
     padding-top: 40px;
 }
 
-.profilePic img {
+.profile-pic img {
     width: 70%;
     border-radius: 100%;
     display: block;
